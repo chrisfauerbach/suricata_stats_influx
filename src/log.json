@@ -1,0 +1,107 @@
+{
+	"timestamp": "2016-06-27T14:38:34.000147+0000",
+	"event_type": "stats",
+	"stats": {
+		"uptime": 245534,
+		"capture": {
+			"kernel_packets": 359737,
+			"kernel_drops": 0
+		},
+		"decoder": {
+			"pkts": 359778,
+			"bytes": 312452344,
+			"invalid": 1000,
+			"ipv4": 343734,
+			"ipv6": 1,
+			"ethernet": 359778,
+			"raw": 0,
+			"null": 0,
+			"sll": 0,
+			"tcp": 314150,
+			"udp": 28577,
+			"sctp": 0,
+			"icmpv4": 7,
+			"icmpv6": 0,
+			"ppp": 0,
+			"pppoe": 0,
+			"gre": 0,
+			"vlan": 0,
+			"vlan_qinq": 0,
+			"teredo": 1,
+			"ipv4_in_ipv6": 0,
+			"ipv6_in_ipv6": 0,
+			"mpls": 0,
+			"avg_pkt_size": 868,
+			"max_pkt_size": 9022,
+			"erspan": 0,
+			"ipraw": {
+				"invalid_ip_version": 0
+			},
+			"ltnull": {
+				"pkt_too_small": 0,
+				"unsupported_type": 0
+			}
+		},
+		"flow": {
+			"memcap": 0,
+			"spare": 10000,
+			"emerg_mode_entered": 0,
+			"emerg_mode_over": 0,
+			"tcp_reuse": 0,
+			"memuse": 7167032
+		},
+		"defrag": {
+			"ipv4": {
+				"fragments": 0,
+				"reassembled": 0,
+				"timeouts": 0
+			},
+			"ipv6": {
+				"fragments": 0,
+				"reassembled": 0,
+				"timeouts": 0
+			},
+			"max_frag_hits": 0
+		},
+		"stream": {
+			"3whs_ack_in_wrong_dir": 0,
+			"3whs_async_wrong_seq": 0,
+			"3whs_right_seq_wrong_ack_evasion": 0
+		},
+		"tcp": {
+			"sessions": 3636,
+			"ssn_memcap_drop": 0,
+			"pseudo": 1622,
+			"pseudo_failed": 0,
+			"invalid_checksum": 0,
+			"no_flow": 0,
+			"syn": 3668,
+			"synack": 3703,
+			"rst": 3583,
+			"segment_memcap_drop": 0,
+			"stream_depth_reached": 3,
+			"reassembly_gap": 605,
+			"memuse": 438144,
+			"reassembly_memuse": 12320544
+		},
+		"detect": {
+			"alert": 648
+		},
+		"flow_mgr": {
+			"closed_pruned": 3621,
+			"new_pruned": 995,
+			"est_pruned": 8755
+		},
+		"dns": {
+			"memuse": 9749,
+			"memcap_state": 0,
+			"memcap_global": 0
+		},
+		"http": {
+			"memuse": 255169,
+			"memcap": 0
+		}
+	}
+}
+
+
