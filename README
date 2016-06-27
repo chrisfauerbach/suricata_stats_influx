@@ -1,0 +1,3 @@
+Snippet to show information from Suricata's stats output in the eve.json file
+Inject into Influx DB, Display in Grafana
+
