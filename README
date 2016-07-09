@@ -1,3 +1,5 @@
 Snippet to show information from Suricata's stats output in the eve.json file
 Inject into Influx DB, Display in Grafana
 
+Writeup on how this is used:
+https://fauie.com/2016/06/27/suricata-stats-to-influx-dbgrafana/
